@@ -2,7 +2,7 @@
 
 - Welcome to the Employee Management System! This system allows you to perform basic CRUD operations (Create, Read, Update, Delete) on employee data through an API. The frontend is built entirely with React.
 
-Note: This application need an localhost jason database to run.
+Note: This application need an localhost json database to run.
 
 ## Screenshot of UI
 
