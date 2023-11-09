@@ -15,8 +15,7 @@ export default function EditForm({ employeeId }) {
     code: "",
     gender: "",
   });
-
-  const fetchApi = "http://localhost:3005/employees/" + idEmployee;
+  const fetchApi = "http://localhost:3005/employees/" + idEmployee.id;
 
   useEffect(() => {
     fetch(fetchApi)

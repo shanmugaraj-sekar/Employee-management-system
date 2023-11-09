@@ -132,8 +132,8 @@ export default function EmployeeTables() {
 
                   <EditIcon
                     onClick={() => {
+                      setSelectedEmployee(employee);
                       handleClickOpen();
-                      setSelectedEmployee(employee.id);
                     }}
                   />
                 </StyledTableCell>
